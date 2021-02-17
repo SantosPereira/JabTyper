@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,600;1,700&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+
+html{
+    /* background-image: linear-gradient(20deg, rgb(77, 20, 20) 15%, #0078bd 90%); */
+    background-image: linear-gradient(20deg, rgb(19, 30, 56) 13%, #0078bd 90%);
+    height: 768px;
+}
+body{
+    background-color: unset;
+    text-align: center;
+    font-family:   sans-serif;
+    color:rgb(19, 30, 56);
+}
+#titulo{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 430%;
+    color: lavenderblush;
+}
+
+
+.texto{
+    color: lightyellow;
+    background: rgb(190, 191, 201);
+    border: none;
+    border-radius: 15px;
+}
+
+#nome{
+    text-align: center;
+}
+
+#campo-digitacao{
+    padding:10px;
+    color: rgb(77, 74, 74);
+}
+
+#botao-reiniciar{
+    border-radius: 90px;
+    border-color: transparent;
+    margin-top: 5px;
+    margin-left: 450px;
+}
+
+.em-preto{
+    color:rgb(19, 30, 56);
+}
+.container{
+    margin-left: 35%;
+    color: lavenderblush;
+    width: 400px;
+}
+.table{
+    margin-left: 35%;
+}
+tbody{
+    color: rgb(141, 141, 141);
+}

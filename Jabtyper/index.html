@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <!-- O bug do layout tá aqui -->
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> -->
+    <!--  ---------------------  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/style.css" type="text/css"/>
+    <meta charset="UTF-8">
+    <title>JabTyper</title>
+</head>
+<body>
+    <h1 id="titulo">JabTyper</h1>
+
+    <input id="nome" class="texto" type="text" placeholder="Nome">
+
+    <p class="frase">Frase com quatro palavras</p>
+    <ul class="informacoes">
+        <lo><span id="tamanho-frase"></span> palavras</lo>
+        <lo style="text-align: center;"> | </lo>
+        <lo><span id="tempo">15</span> segundos</lo>
+    </ul>
+    
+    
+    
+    <textarea id="campo-digitacao" class="texto"cols="60" rows="10"></textarea>
+
+    <br>
+    <button id="botao-reiniciar" class="glyphicon bi-arrow-counterclockwise">reset</button>
+    <table style="padding-left: 32%; color: whitesmoke;" id="tabela-pontos">
+       <tbody class="em-preto">
+           <tr>
+               <td>                     
+                    <ul>
+                        <lo><span id="caracteres-digitados">0</span> caracteres digitados</lo>
+                    </ul>
+               </td>
+               <td>                     
+                    <ul>
+                        <lo>|</lo>
+                    </ul>
+                </td>
+               <td>                     
+                <ul>
+                    <lo><span id="palavras-digitadas">0</span> palavras digitadas</lo>
+                </ul>
+                </td>
+            </tr>
+       </tbody>
+    </table>
+
+    <!-- placar -->
+    <div class="container">
+        <h2>Placar</h2>
+        <table class="table">
+        <thead>
+            <tr>
+            <th>Nome</th>
+            <th></th>
+            <th>Pontuação</th>
+            </tr>
+        </thead>
+        <tbody id="tabela-resultado">
+            <tr class="tab1">
+            <td>Ana</td>
+            <td></td>
+            <td>1</td>
+            </tr>
+            <tr class="tab1">
+            <td>Pedro</td>
+            <td></td>
+            <td>2</td>
+            </tr>
+            <tr class="tab1">
+            <td>João</td>
+            <td></td>
+            <td>3</td>
+            </tr>
+        </tbody>
+        </table>
+    </div>
+  
+    
+    
+
+    <script src="js/jquery.js"></script>
+    <script src="js/main.js"></script>
+</body>
