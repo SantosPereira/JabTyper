@@ -1,6 +1,6 @@
 # JabTyper v1.0
 
-Projeto para avaliação na cadeira de Desenvolvimento Web II do Curso de Ánalise e Desenvolvimento de Sistemas
+Projeto para avaliação na cadeira de Desenvolvimento Web II do Curso de Análise e Desenvolvimento de Sistemas
 
 Ao usuário: tecle F11 para melhor experiência em tela cheia
 
