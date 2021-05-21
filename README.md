@@ -4,10 +4,10 @@ Projeto para avaliação na cadeira de Desenvolvimento Web II do Curso de Análi
 
 Ao usuário: tecle F11 para melhor experiência em tela cheia
 
-Link do projeto no github: github.com/SantosPereira/JabTyper
+Link do projeto no github: <github.com/SantosPereira/JabTyper>
+
+Link do projeto em produção: <http://www.jabtyper.codes/>
 
 ***Changelog***
 
 * v1.0 => lançamento (entrega da atividade com atendimento de todos os requisitos)
-* v1.5 => [PREVISÃO] Melhoria no css e mecânicas de jogo
-* v2.0 => [PREVISÃO] implementação em electronJS para desktop
